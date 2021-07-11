@@ -1,0 +1,114 @@
+
+/* Home page Web view styling*/
+
+.firstSection{height: 90vh;}
+.firstSectionImage{height: 88vh;width: 100%;border: solid 0px darkmagenta;}
+.firstSectionImage img{height: 100%;width: 100%;}
+.firstSectionText{height: 80vh;width: 100%;border:  solid blue 0px; }
+.textPortion{border: solid 0px hotpink;width: 100%;height: 50%;margin-top: -23%;}
+.text1{font-size: 60px;font-weight: bold;margin-top: 0%;color: white;border: solid 0px green;margin-top: 0%;}
+.text2{font-size: 30px;margin-top: 3%;color: white;width: 38%;text-align: center;margin-left: 31% ;}
+.secondSection{height: 55vh;width: 100%;border: solid 0px darkorange;display: flex;margin-top: 5%;}
+.secondSectionLeft{height: 100%;width: 50%;border: solid 0px sienna;margin-top: 0%;}
+.secondSectionLeft img{height: 100%;margin-left: 15%}
+.secondSectionRight{height: 100%;width: 50%;}
+
+.ContactUsFormMain{width: 50%;height: 78vh;border: solid black 0px;margin-top: -25%;background-color: black;float: right;margin-right: 15%;}
+.ContactUsForm{width: 100%;height: 100%;display: flex;flex-direction:column;justify-content: center;align-items: center;border: solid yellow 0px;}
+.ContactUsFormDiv{height: 100%;width: 80%;border: solid darkcyan 0px;}
+.heading{width: 60%;height: 10%;color: white;font-size: 28px;font-weight: bolder; border: solid 0px slateblue;margin-left: 20%;margin-top: 10%;}
+.heading2{width: 100%;height: 15%;color: white;font-size: 18px;margin-top: 5%;}
+
+.ContactUsInput{height: 9%;width:100%; border:solid red 0px;display:flex;align-items: center;}
+.ContactUsInputField{height:65%;width: 90%; border: solid black 1px;display: flex;align-items: center;}
+.ContactUsInputField input{height:90%;width: 100%; border:solid 0px;margin-left:5px;border-radius: 3px;}
+.ContactUsInputField input:focus{outline: none;}
+
+.ContactUsInputMsg{height:40%;width:100%;border:solid red 0px;display:flex;align-items:center;}
+.ContactUsInputMsgField{height:90%;width: 90%; border: solid black 1px;}
+.ContactUsInputMsgFieldIcon{text-align: left;height: 15%;}
+.ContactUsInputMsgField textarea{height:80%;width: 90%; border: none;margin-left:5px;}
+.ContactUsInputMsgField textarea:focus{outline: none;}
+
+.ContactUsInputBtn{height:15%;width:100%; border:solid red 0px;display:flex;align-items: center;}
+.ContactUsInputBtnField{height:46%;width:100%; border: solid black 0px;display: flex;align-items: center;color: white;}
+.ContactUsInputBtnField input{height:100%;width:100%; border:solid 0px;background-color: #4CA9EE;color: white;font-size: 15px;}
+.ContactUsInputBtnField input:focus{outline: none;}
+.schedule{height: 6vh;width: 100%; font-size: 14px;background-color: #4ca9ee;border-radius:5px;border: none;float: left;color: white; }
+
+.thirdSection{height: 75vh;width: 100%;display: flex;border: solid 0px darkblue;margin-top: 5%;}
+.thirdSectionText{height: 50%;width: 50%;border: solid 0px firebrick;margin-top: 5%;}
+.thirdSectionText h1{color: black;width: 50%;margin-left: 10%;font-size: 45px;}
+.thirdSectionText p{font-size: 20px;color: gray;width: 80%;text-align: left;margin-left: 15%;}
+.VideoBoxRight{height: 75%;width: 45%;border: solid seagreen 0px;background-color: white;display: flex;justify-content: center;align-items: center;position: relative;}
+.VideoBoxRight img{height: 110%;width: 100%;}
+.playImage{position: absolute;border: solid 0px gold;}
+
+
+.fourthSection{height: 25vh;width: 100%;display: flex;border: solid 0px goldenrod;background-color: black;margin-top: 3%;}
+.fourthLeft{width: 50%;border: solid 0px violet;text-align: left;}
+.fourthSection h1{color: white;font-weight: bolder;margin-left: 10%;margin-top: 5%;}
+.fourthSection p{color: white;margin-left: 10%;width: 70%;font-size: 18px;}
+.fourthRight{width: 30%;border: solid 0px hotpink;height: 10vh;margin-top: 5%;margin-left: 15%;}
+.session{background-color: #27e7CD;color: black;border-radius: 25px;height: 6vh;width: 23vh;font-weight: bolder;border: none;}
+.know{background-color: white;color: black;border-radius: 25px;height: 6vh;width: 23vh;font-weight: bolder;border: none;margin-left: 5%;}
+
+.footerSection{height: 20vh;width: 100%;border: solid 0px orangered;}
+.footerLinks{width:60%;display:flex;justify-content:space-between;font-size:18px;cursor: pointer;background-color: #fff;margin-bottom: 0px;font-weight: bold;letter-spacing: 1px;border: solid 0px gold;margin-left: 18%;margin-top: 3%;}
+.link{color: black;text-decoration: none;}
+.copyright{height: 8vh;width: 100%;border: solid 0px green;display: flex;}
+.copyright img{width: 2%;height: 48%;margin-top: 1%;margin-left: 38%;}
+.copyright p{font-size: 18px;color: #413F3F;}
+.termsPrivacy{height: 2vh;width: 10%;display: flex;justify-content: space-between;border: solid 0px red;margin-left: 45%;}
+.TERMS{font-size: 20px;color: #413F3F;}
+.PRIVACY{font-size: 20px;color: #413F3F;}
+
+/* Home page Web view styling completed*/
+
+/* Home page Mobile view styling */
+
+@media(max-width:850px){
+    
+    .firstSection{height: 50vh;}
+    .firstSectionImage{height: 50vh;width: 100%;border: solid 0px darkmagenta;}
+    .firstSectionImage img{height: 100%;width: 100%;}
+    .firstSectionText{height: 80vh;width: 100%;border:  solid blue 0px; }
+    .textPortion{border: solid 0px hotpink;width: 100%;height: 50%;margin-top: -55%;}
+    .text1{font-size: 30px;margin-top: 0%;}
+    .text2{font-size: 15px;margin-top: 3%;color: white;width: 80%;text-align: center;margin-left: 10% ;}
+    .secondSection{height: 55vh;width: 100%;border: solid 0px darkorange;display: flex;flex-direction: column; margin-top: 5%;}
+    .secondSectionLeft{height: 70%;width: 100%;border: solid 0px sienna;margin-top: 5%;}
+    .secondSectionLeft img{height: 100%;margin-left: 0%}
+    .secondSectionRight{height: 100%;width: 100%;margin-top: 5%;border: solid 0px gold;} 
+    .ContactUsFormMain{width: 100%;height: 78vh;border: solid black 0px;margin-top: 5%;background-color: black;float: right;margin-right: 0%;}
+    .heading{width: 100%;height: 8%;color: white;font-size: 25px;font-weight: bolder; border: solid 0px slateblue;margin-left: 0%;margin-top: 10%;}
+    .heading2{width: 100%;height: 13%;color: white;font-size: 15px;margin-top: 5%;border: solid 0px red;} 
+    .schedule{height: 6vh;width: 95%; font-size: 14px;background-color: white;border-radius:5px;border: none;float: left;color: black; font-weight: bolder;}
+    .thirdSection{height: 60vh;width: 100%;display: flex;flex-direction: column; border: solid 0px darkblue;margin-top: 500px;}
+    .thirdSectionText{height: 25%;width: 100%;border: solid 0px firebrick;margin-top: 5%;}
+    .thirdSectionText h1{color: black;width: 100%;margin-left: 0%;font-size: 25px;font-weight: bolder;}
+    .thirdSectionText p{font-size: 13px;color: gray;width: 90%;text-align: left;margin-left: 4%;}
+    .VideoBoxRight{height: 45%;width: 80%;border: solid seagreen 0px;background-color: white;align-items: center;margin-top:15%;}
+    .VideoBoxRight img{height: 100%;width: 100%;}
+    .playImage{position: absolute;border: solid 0px gold;}
+    .playImage img{height: 50%;width: 50%;}
+    .fourthSection{height: 25vh;width: 100%;display: flex; flex-direction: column; border: solid 0px goldenrod;background-color: black;margin-top: 3%;}
+    .fourthLeft{width: 100%;border: solid 0px violet;text-align: left;}
+    .fourthSection h1{color: white;font-weight: bolder;margin-left: 5%;margin-top: 5%;font-size: 20px;}
+    .fourthSection p{color: white;margin-left: 5%;width: 90%;font-size: 13px;}
+    .fourthRight{width: 100%;border: solid 0px hotpink;height: 10vh;margin-top: 5%;margin-left: -5%;}
+    .session{background-color: #27e7CD;color: black;border-radius: 25px;height: 5vh;width: 20vh;font-weight: bolder;border: none;font-size: 10px;}
+    .know{background-color: white;color: black;border-radius: 25px;height: 5vh;width: 20vh;font-weight: bolder;border: none;margin-left: 3%;font-size: 10px;}
+    .footerSection{height: 15vh;width: 100%;border: solid 0px orangered;}
+    .footerLinks{width: 90%;display:flex;justify-content:space-between;font-size:11px;cursor: pointer;background-color: #fff;margin-bottom: 0px;font-weight: bolder;letter-spacing: 1px;border: solid 0px gold;margin-left: 0%;margin-top: 3%;}
+    .link{color: black;text-decoration: none;}
+    .copyright{height: 5vh;width: 100%;border: solid 0px green;display: flex;}
+    .copyright img{width: 6%;height: 55%;margin-top: 3%;margin-left: 15%;}
+    .copyright p{font-size: 13px;color: #413F3F;margin-left: 2px;}
+    .termsPrivacy{height: 2vh;width: 30%;display: flex;justify-content: space-between;border: solid 0px red;margin-left: 35%;margin-top: 2%;}
+    .TERMS{font-size: 13px;color: #413F3F;}
+    .PRIVACY{font-size: 13px;color: #413F3F;}
+}
+
+/* Home page Mobile view styling completed*/
+
