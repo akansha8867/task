@@ -1,16 +1,16 @@
 /* Navbar Web View Styling */
 .navbarMain{height: 10vh;border: solid 0px red;margin-top: 2%;display:flex;justify-content:space-between;}
-.LOGO{height: 50px;float: inline-start;border: solid 0px red;width: 18%;margin-top: 15px;margin-left: 40px;}
+.LOGO{height: 50px;float: inline-start;border: solid 0px red;width: 18%;margin-top: 15px;margin-left: 40px;cursor: pointer;}
 .LOGO img{height: 80%;}
 .navlink{width: 10%;font-size:20px;cursor: pointer;font-weight: bold;letter-spacing: 1px;border: solid 0px green; height: 5vh;margin-right: 3%;margin-top: 1%;} 
-.join{height: 6vh;width: 18vh; font-size: 15px;background-color: #4ca9ee;border-radius:26px;border: none;float: left;color: white; }
+.join{height: 6vh;width: 18vh; font-size: 15px;background-color: #4ca9ee;border-radius:26px;border: none;float: left;color: white; cursor: pointer;}
 
 /* Navbar Mobile View Styling */
 @media(max-width:850px){
 
   .navbarMain{height: 10vh;border: solid 0px red;margin-top: 2%;display:flex;justify-content:space-evenly;width: 100%;}
-  .LOGO{height: 35px;width: 58%;margin-left: 0%;}
+  .LOGO{height: 35px;width: 58%;margin-left: 0%;cursor: pointer;}
   .navlink{width: 30%;} 
-  .join{height: 5vh;width: 15vh; font-size: 12px;background-color: black;margin-top: 10%;margin-left: 5%; }
+  .join{height: 5vh;width: 15vh; font-size: 12px;background-color: black;margin-top: 10%;margin-left: 5%; cursor: pointer;}
 
 }
